@@ -1,0 +1,242 @@
+*¨ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:active {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Volkhov', serif;
+
+
+}
+
+/*----fondo de Home----*/
+.tacita {
+    background-image: url(../media/images/fondito.jpg);
+}
+
+
+
+/*----fondo del shop----*/
+.cups {
+    background-image: url(../media/images/browncake.jpg);
+}
+
+
+/*----fondo de sucursales----*/
+.company{
+    background-image: url(../media/images/4tipos.jpg);
+}
+
+/*----fondo nosotros----*/
+.co-worker {
+    background-image: url(../media/images/worker.jpg);
+}
+
+/*----fondo de capsule----*/
+.capsule {
+    background-image: url(../media/images/torrado.jpg);
+}
+
+/*------header------*/
+.clase-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(104 39 9);
+    flex-direction: row;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+logo p {
+    margin: 10px;
+}
+
+.clase-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.clase-ul li {
+    margin: 10px;
+    font-family: 'Volkhov', serif;
+}
+
+.cctitle { /*---- esto es la letra de mi logo----*/
+    color: rgba(07 06 04);
+    font-family: 'Volkhov', serif;
+    margin: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.color-home{      /*------color de mis navegadores----*/
+    color: rgba(07 06 04);
+    font-family: 'Volkhov', serif;
+    margin: 10px;
+}
+.color-shop{
+    color: rgba(07 06 04);
+    font-family: 'Volkhov', serif;
+    margin: 10px;
+}
+
+.color-sucur{
+    color: rgba(07 06 04);
+    font-family: 'Volkhov', serif;
+    margin: 10px;
+}
+.color-staff{
+    color: rgba(07 06 04);
+    font-family: 'Volkhov', serif;
+    margin: 10px;
+}
+
+.color-coffe{
+    color: rgba(07 06 04);
+    font-family: 'Volkhov', serif;
+    margin: 10px;
+}
+
+
+
+
+
+/*--------------fin del header---------------*/
+
+/*------------------INICIO DE MI INDEX-------------*/
+
+/*--------------inicio de main--------*/
+.card-index {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+
+
+
+}
+
+.greg {
+    height: 75vh;
+}
+
+
+.bg-card {
+    background-color: #7F4F24;
+    padding: 9px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 320px;
+}
+
+
+.w_img {
+    width: 420px;
+}
+
+
+.border-card {
+    background-color: #936639;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pin {
+    background-color: #A68A64;
+    padding: 9px 49px;
+    margin: 20px;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: 'Volkhov', serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.pin:hover {
+    background-color: rgb(104 39 9);
+}
+
+.color-conec {
+color: rgba(07 06 04);
+font-family: 'Volkhov', serif;
+margin: 10px;
+}
+.carasg-img {
+    width: 230px;
+    height: 230px;
+}
+
+.w-img {
+    width: 230px;
+    height: 230px
+}
+
+
+
+
+/*-----------------FIN DE MI INDEX-------------*/
+
+/*------------------fin de main----------------*/
+
+
+
+/*-----footer-----*/
+.bg-footer {
+    background-color: rgb(104 39 9);
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    }
+
+
+.redes {
+    margin: 0 5%;
+    text-align: end;
+    width: 100%;
+}
+
+.redes a:hover {
+    color: black;
+    S
+}
+
+.derechos {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+/*-----fin de footer-----*/
+
